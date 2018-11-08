@@ -5,7 +5,7 @@ description: "A dark blog theme for Jekyll."
 baseurl: ""
 url: "http://carte-noire.jacobtomlinson.co.uk/"
 title_description: "Computer Science Undergraduate at Bits Pilani KK Birla Goa Campus.<br> Reader | Coder | Runner"
-title_image: "/home/ameya/Desktop/ameyanator.github.io/_config.yml"
+title_image: "https://avatars0.githubusercontent.com/u/20975496?s=400&v=4"
 google_analytics: "UA-20365477-4"
 #disqus_account: ameyasinha
 github_repository: https://github.com/jacobtomlinson/carte-noire
