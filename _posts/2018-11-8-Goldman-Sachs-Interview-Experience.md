@@ -6,6 +6,7 @@ author:     Ameya Sinha
 summary:    My Internship Experience with Goldman Sachs
 categories: Interviews
 thumbnail:  heart
+comments: true
 tags:
  - welcome
  - to
