@@ -49,9 +49,9 @@ All in all, I think that this round went well too. I do not have much experience
 
 Not all students had this round (even out of those who were finally selected), as the interviewers had a flight to catch in the evening. I was the first to finish my three rounds so I had this round. The Hiring Manager asked me HR questions and Technical Questions. He would also dig deep into the HR questions that he had asked me. Some of them were what would you do if your team member starts to underperform. He asked a lot of questions which would end up at whether I would own up or not when I made a mistake and at what point I would mention it to the manager. He also asked me some Technological questions such as the difference between Java 7,8,9 but only because I had told him that I like to read Java release docs. He then told me about his experience in Goldman Sachs and shook my hands. He was very professional.
 
-The interview experience was fine for me. The interviewers were mostly friendly and the company made the decisions on all the previous interviews and not just one which can go bad for anyone.
-
 Finally, 7 students were selected for Internships.
+
+The interview experience was fine for me. The interviewers were mostly friendly and the company made the decisions on all the previous interviews and not just one which can go bad for anyone. The HR, however, would often get annoyed as I had my Microsoft Internship Interview on the same day and I would sneak in between the Goldman Sachs interviews over towards Microsoft's :P. I ended up choosing Microsoft over Goldman Sachs after eight rounds of interviews (combined by both the companies).
 
 Here is the [question][4] that was aked in the coding round of the Placements.
 
