@@ -7,10 +7,10 @@ summary:    My Internship Experience with Goldman Sachs
 categories: Interviews
 thumbnail:  heart
 tags:
- - welcome
- - to
- - carte
- - noire
+ - Internships
+ - Interviews
+ - Goldman Sachs
+ - Experience
 ---
 
 Goldman Sachs had come to our campus to hire students for both Placements and Internships. This article describes the experience for internships but at the end, I’ve added the link to the coding question that was asked for placements too.
