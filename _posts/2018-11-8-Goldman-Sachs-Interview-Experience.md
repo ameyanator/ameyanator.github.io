@@ -21,9 +21,9 @@ This round was open to students for all branches.
 This round consisted of one Coding question and Logical + Aptitude + Core CS fundamental questions. The coding question was a spinoff of the [Longest Increasing Subsequence][1] problem. It wasn’t a direct question and we had to reduce the problem to the LIS problem. One required knowledge of STL and experience of working with LIS problems to solve it. The other questions in the section were related to computer science fundamentals and were of multiple choice in nature. Some of the topics that the questions were asked from were –
 * Time Complexity (Algorithm was described and we were asked to find the complexity)  
 * Binary Search (To find the number of recursions)  
-* Kruskals Algorithm (Problem reduced to finding the number of times we do the ‘union’ in Kruskals Algorithm)  
+* Kruskal's Algorithm (Problem reduced to finding the number of times we do the ‘union’ in Kruskal's Algorithm)  
 * Object Oriented Programming (Basic OOP questions)  
-* Probablity (Basic Probablity)  
+* Probability (Basic Probability)  
 * BFS and DFS (very non-trivial, we were asked to find the complexity of a spin-off version of the DFS/BFS algorithms)  
 
 I would like to mention that only solving the coding questions completely does not mean that you will be shortlisted. I think that they definitely have a section wise cutoff for the Aptitude questions that one needs to fulfill. Some of my friends had solved the coding question completely but were not shortlisted but others who had not solved the coding question but a good number of aptitude questions were shortlisted. However if they considered CGPA or other factors for shortlisting, I do not know.
@@ -40,9 +40,9 @@ This round went exceptionally well for me. The interviewer was very friendly and
 
 I was selected for the next round.
 
-## Round 3, The Final Techinical Round
+## Round 3, The Final Technical Round
 
-In this round, I was asked to design an Air Traffic Control System something like what’s given in this [link][3]. I started out with abstracting the problem but the interviewer said that he was not interested in these abstractions but was more interested in how I handle all specifications that he had provided. He had actually provided a lot of them. Some of them were – Plane comes in every 2 mins, Plane that is in the hanger is ready to leave after every 6 mins of its arrival and can stay max up to 10 mins, some specified time for the plane to reach the hanged from and to the runway. Some specified time for the takeoff and landing. Also, some specified time for which the runway cannot be used after there has been a takeoff and landing. This made the question a real-world Data Structures and Algorithms questions. I threw in a lot of queues, priority queues, heaps and circular queues to solve it. We even reached to the point where we would consider the case where the airplanes were circling above the airport waiting for them to land. In between were a few jokes as to what airplanes would do if they did not follow our model.
+In this round, I was asked to design an Air Traffic Control System something like what’s given in this [link][3]. I started out with abstracting the problem but the interviewer said that he was not interested in these abstractions but was more interested in how I handle all the specifications that he had provided. He had actually provided a lot of them. Some of them were – Plane comes in every 2 mins, Plane that is in the hanger is ready to leave after every 6 mins of its arrival and can stay max up to 10 mins, some specified time for the plane to reach the hanged from and to the runway. Some specified time for the takeoff and landing. Also, some specified time for which the runway cannot be used after there has been a takeoff and landing. This made the question a real-world Data Structures and Algorithms questions. I threw in a lot of queues, priority queues, heaps and circular queues to solve it. We even reached to the point where we would consider the case where the airplanes were circling above the airport waiting for them to land. In between were a few jokes as to what airplanes would do if they did not follow our model.
 All in all, I think that this round went well too. I do not have much experience with such questions but was able to handle and point all the specifications that he had mentioned.
 
 ## Round 4, The Hiring Manager Round
@@ -51,7 +51,7 @@ Not all students had this round (even out of those who were finally selected), a
 
 The interview experience was fine for me. The interviewers were mostly friendly and the company made the decisions on all the previous interviews and not just one which can go bad for anyone.
 
-Finally 7 students were selected for Internships.
+Finally, 7 students were selected for Internships.
 
 Here is the [question][4] that was aked in the coding round of the Placements.
 
