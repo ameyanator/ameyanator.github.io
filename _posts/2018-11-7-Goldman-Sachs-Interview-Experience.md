@@ -5,7 +5,7 @@ date:       2018-11-7 12:12:12
 author:     Ameya Sinha
 summary:    My Internship Experience with Goldman Sachs
 categories: Interviews
-thumbnail:  heart
+thumbnail:  smilie
 tags:
  - Internships
  - Interviews
