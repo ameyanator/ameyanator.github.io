@@ -4,7 +4,7 @@ title:      My100DaysOfCode - Milestones
 date:       2018-11-8 03:03:03
 author:     Ameya Sinha
 summary:    My 100 Days of Code Milestones
-categories: Interviews
+categories: 100DaysOfCode
 thumbnail:  heart
 tags:
  - Coding
@@ -27,7 +27,10 @@ Here is my milstones page :)
 &nbsp;&nbsp;&nbsp;&nbsp; 1. [Codechef](https://www.codechef.com/users/ameyanator)  
 &nbsp;&nbsp;&nbsp;&nbsp; 2. [Hackerrank](https://www.hackerrank.com/ameyanator)  
 &nbsp;&nbsp;&nbsp;&nbsp; 3. [Spoj](https://www.spoj.com/users/ameyanator)  
-&nbsp;&nbsp;&nbsp;&nbsp; 4. [Codeforces](https://codeforces.com/profile/ameyanator)  
+&nbsp;&nbsp;&nbsp;&nbsp; 4. [Codeforces](https://codeforces.com/profile/ameyanator) 
+
+* Completed these MOOCS  
+&nbsp;&nbsp;&nbsp;&nbsp; 1. [Algorithmic Toolbox][4]  
 
 ### Things I knew before the challenge
 * Languages  
@@ -41,3 +44,4 @@ Here is my milstones page :)
 [1]: https://www.100daysofcode.com/
 [2]: https://github.com/ameyanator/100DaysOfCode
 [3]: https://twitter.com/luva1900
+[4]: https://www.coursera.org/account/accomplishments/certificate/TRWXN55FQFQ4
