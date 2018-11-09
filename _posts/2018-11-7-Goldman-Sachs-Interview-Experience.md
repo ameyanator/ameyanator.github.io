@@ -1,16 +1,16 @@
 ---
 layout:     post
 title:      Goldman Sachs Interview Experience
-date:       2018-11-8 12:12:12
+date:       2018-11-7 12:12:12
 author:     Ameya Sinha
 summary:    My Internship Experience with Goldman Sachs
 categories: Interviews
 thumbnail:  heart
 tags:
- - Internships
- - Interviews
- - Goldman Sachs
- - Experience
+ - welcome
+ - to
+ - carte
+ - noire
 ---
 
 Goldman Sachs had come to our campus to hire students for both Placements and Internships. This article describes the experience for internships but at the end, I’ve added the link to the coding question that was asked for placements too.
@@ -21,9 +21,9 @@ This round was open to students for all branches.
 This round consisted of one Coding question and Logical + Aptitude + Core CS fundamental questions. The coding question was a spinoff of the [Longest Increasing Subsequence][1] problem. It wasn’t a direct question and we had to reduce the problem to the LIS problem. One required knowledge of STL and experience of working with LIS problems to solve it. The other questions in the section were related to computer science fundamentals and were of multiple choice in nature. Some of the topics that the questions were asked from were –
 * Time Complexity (Algorithm was described and we were asked to find the complexity)  
 * Binary Search (To find the number of recursions)  
-* Kruskal's Algorithm (Problem reduced to finding the number of times we do the ‘union’ in Kruskal's Algorithm)  
+* Kruskals Algorithm (Problem reduced to finding the number of times we do the ‘union’ in Kruskals Algorithm)  
 * Object Oriented Programming (Basic OOP questions)  
-* Probability (Basic Probability)  
+* Probablity (Basic Probablity)  
 * BFS and DFS (very non-trivial, we were asked to find the complexity of a spin-off version of the DFS/BFS algorithms)  
 
 I would like to mention that only solving the coding questions completely does not mean that you will be shortlisted. I think that they definitely have a section wise cutoff for the Aptitude questions that one needs to fulfill. Some of my friends had solved the coding question completely but were not shortlisted but others who had not solved the coding question but a good number of aptitude questions were shortlisted. However if they considered CGPA or other factors for shortlisting, I do not know.
@@ -40,18 +40,18 @@ This round went exceptionally well for me. The interviewer was very friendly and
 
 I was selected for the next round.
 
-## Round 3, The Final Technical Round
+## Round 3, The Final Techinical Round
 
-In this round, I was asked to design an Air Traffic Control System something like what’s given in this [link][3]. I started out with abstracting the problem but the interviewer said that he was not interested in these abstractions but was more interested in how I handle all the specifications that he had provided. He had actually provided a lot of them. Some of them were – Plane comes in every 2 mins, Plane that is in the hanger is ready to leave after every 6 mins of its arrival and can stay max up to 10 mins, some specified time for the plane to reach the hanged from and to the runway. Some specified time for the takeoff and landing. Also, some specified time for which the runway cannot be used after there has been a takeoff and landing. This made the question a real-world Data Structures and Algorithms questions. I threw in a lot of queues, priority queues, heaps and circular queues to solve it. We even reached to the point where we would consider the case where the airplanes were circling above the airport waiting for them to land. In between were a few jokes as to what airplanes would do if they did not follow our model.
+In this round, I was asked to design an Air Traffic Control System something like what’s given in this [link][3]. I started out with abstracting the problem but the interviewer said that he was not interested in these abstractions but was more interested in how I handle all specifications that he had provided. He had actually provided a lot of them. Some of them were – Plane comes in every 2 mins, Plane that is in the hanger is ready to leave after every 6 mins of its arrival and can stay max up to 10 mins, some specified time for the plane to reach the hanged from and to the runway. Some specified time for the takeoff and landing. Also, some specified time for which the runway cannot be used after there has been a takeoff and landing. This made the question a real-world Data Structures and Algorithms questions. I threw in a lot of queues, priority queues, heaps and circular queues to solve it. We even reached to the point where we would consider the case where the airplanes were circling above the airport waiting for them to land. In between were a few jokes as to what airplanes would do if they did not follow our model.
 All in all, I think that this round went well too. I do not have much experience with such questions but was able to handle and point all the specifications that he had mentioned.
 
 ## Round 4, The Hiring Manager Round
 
 Not all students had this round (even out of those who were finally selected), as the interviewers had a flight to catch in the evening. I was the first to finish my three rounds so I had this round. The Hiring Manager asked me HR questions and Technical Questions. He would also dig deep into the HR questions that he had asked me. Some of them were what would you do if your team member starts to underperform. He asked a lot of questions which would end up at whether I would own up or not when I made a mistake and at what point I would mention it to the manager. He also asked me some Technological questions such as the difference between Java 7,8,9 but only because I had told him that I like to read Java release docs. He then told me about his experience in Goldman Sachs and shook my hands. He was very professional.
 
-Finally, 7 students were selected for Internships.
+The interview experience was fine for me. The interviewers were mostly friendly and the company made the decisions on all the previous interviews and not just one which can go bad for anyone.
 
-The interview experience was fine for me. The interviewers were mostly friendly and the company made the decisions on all the previous interviews and not just one which can go bad for anyone. The HR, however, would often get annoyed as I had my Microsoft Internship Interview on the same day and I would sneak in between the Goldman Sachs interviews over towards Microsoft's :P. I ended up choosing Microsoft over Goldman Sachs after eight rounds of interviews (combined by both the companies).
+Finally 7 students were selected for Internships.
 
 Here is the [question][4] that was aked in the coding round of the Placements.
 
