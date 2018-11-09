@@ -3,14 +3,14 @@ title: "Ameya Sinha"
 email: ameyasinha26@gmail.com
 description: "A dark blog theme for Jekyll."
 baseurl: ""
-url: "http://carte-noire.jacobtomlinson.co.uk/"
+url: ""
 title_description: "Computer Science Undergraduate at Bits Pilani KK Birla Goa Campus.<br> Reader | Coder | Runner"
 title_image: "https://avatars0.githubusercontent.com/u/20975496?s=400&v=4"
-google_analytics: "UA-20365477-4"
+google_analytics: "UA-129019216-1"
 #disqus_account: ameyasinha
-github_repository: https://github.com/jacobtomlinson/carte-noire
+github_repository: https://github.com/ameyanator/ameyanator.github.io
 addthis_id: ra-513c6fa83da6ec67
-post_limit: 5
+post_limit: 7
 
 # Social usernames/URLs
 twitter_username: luva1900
