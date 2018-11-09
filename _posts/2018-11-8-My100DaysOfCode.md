@@ -4,7 +4,7 @@ title:      My100DaysOfCode - Milestones
 date:       2018-11-8 03:03:03
 author:     Ameya Sinha
 summary:    My 100 Days of Code Milestones
-categories: Interviews
+categories: 100DaysOfCode
 thumbnail:  heart
 tags:
  - Coding
