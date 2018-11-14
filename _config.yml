@@ -13,15 +13,17 @@ addthis_id: ra-513c6fa83da6ec67
 post_limit: 7
 
 # Social usernames/URLs
-twitter_username: _jacobtomlinson
-github_username:  jacobtomlinson
-instagram_username:
-reddit_username:
-linkedin_link: http://carte-noire.jacobtomlinson.co.uk/
-google_plus_link: http://carte-noire.jacobtomlinson.co.uk/
-stackoverflow_link: http://carte-noire.jacobtomlinson.co.uk/
+twitter_username: luva1900
+github_username:  ameyanator
+instagram_username: ameyanator26
+reddit_username: ameyanator
+linkedin_link: https://www.linkedin.com/in/ameya-sinha-8a629012a/
+google_plus_link:
+stackoverflow_link: https://stackoverflow.com/users/6871012/ameya-sinha
 xing_link:
-facebook_link:
+facebook_link: https://www.facebook.com/ameyanator
+gmail_link: ameyasinha26@gmail.com
+CV_link: https://drive.google.com/file/d/1HI1YfRm76Qnfkl77FjMKf4tgtioEBOvG/view
 
 # Footer
 footer_left: "Made with <i class=\"fa fa-heart\"></i> by <a href=\"https://twitter.com/_JacobTomlinson\">Jacob Tomlinson</a>"
