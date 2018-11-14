@@ -12,7 +12,7 @@ tags:
  - Goldman Sachs
  - Experience
 ---
-
+![Image of Microsoft][5]
 Goldman Sachs had come to our campus to hire students for both Placements and Internships. This article describes the experience for internships but at the end, I’ve added the link to the coding question that was asked for placements too.
 
 ## Round 1, The Coding + Aptitude Round
@@ -59,3 +59,4 @@ Here is the [question][4] that was aked in the coding round of the Placements.
 [2]: https://www.geeksforgeeks.org/construct-tree-from-given-inorder-and-preorder-traversal/
 [3]: https://www.careercup.com/question?id=21729663
 [4]: https://www.geeksforgeeks.org/longest-common-subsequence-dp-4/
+[5]: /images/goldmanSachs.jpeg
