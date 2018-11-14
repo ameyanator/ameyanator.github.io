@@ -5,7 +5,7 @@ date:       2018-11-05 03:03:03
 author:     Ameya Sinha
 summary:    Explanation of the Sieve of Eratosthenes
 categories: Algorithms
-thumbnail:  heart
+thumbnail:  
 tags:
  - Algorithms
  - Prime Numbers
