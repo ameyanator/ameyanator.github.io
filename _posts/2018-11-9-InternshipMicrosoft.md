@@ -11,9 +11,9 @@ tags:
  - Internship
  - Interview
 ---
-
+![Image of Microsoft][1]
 This summer I will be interning at Microsoft India!  
-I was lucky enough to bag an internship from Microsoft and this triggered many of my 'firsts'. I got my first (uh oh proper) internship which got me my first offer letter and will be my first professional experience in the Industry. 
+I was lucky enough to bag an internship from Microsoft and this triggered many of my 'firsts'. I got my first (uh oh proper) internship which got me my first offer letter and will be my first professional experience in the Industry.
 
 Here is how the process of interview process of Microsoft for internships was like -  
 The process kicks off with a coding round held on the CoCubes platform. Three questions, seventy-five minutes for ten marks total (2+3+5) are asked. Each student gets a different set of three questions and the questions asked are mainly from Trees, Linked Lists, Strings, Arrays, and Sortings.  
@@ -29,3 +29,5 @@ The whole process took around 12 hours for me (8 AM to 7.40ish PM) with eight in
 Annnnd that is how the most significant day of my life till now had panned out to be. I cannot be more excited about this internship.
 
 Summer 2019 you where art though?
+
+[1]: /images/microsoft.jpg
