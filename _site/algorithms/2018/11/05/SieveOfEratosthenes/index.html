@@ -4,7 +4,7 @@
     <head>
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Ameya Sinha</title>
+<title>Sieve of Eratosthenes</title>
 <meta name="description" content="A dark blog theme for Jekyll.">
 
 <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
@@ -89,102 +89,140 @@
 
     <div class="page-content">
       <div class="wrap">
-      <div class="container-fluid index">
-    <div class="row">
+      
 
-        <div class="col-md-12 main content-panel">
+<div class="container-fluid single">
+  <div class="row">
 
-            <div class="gravatar">
-                <img src="https://avatars0.githubusercontent.com/u/20975496?s=400&v=4" class="img-circle about-image" height="150" width="150" alt="Ameya Sinha" />
-            </div>
+    <div itemscope itemtype="http://schema.org/Article" class="col-md-12 article">
+      
+      <div class="thumb">
+        <i class="fa fa-heart fa-4x"></i>
+      </div>
+      
 
-            <h1 class="header author-header" itemprop="headline">Ameya Sinha</h1>
+      <h1 class="header" itemprop="name">Sieve of Eratosthenes</h1>
 
-            <div class="author-text">
-                Computer Science Undergraduate at Bits Pilani KK Birla Goa Campus.<br> Reader | Coder | Runner
-            </div>
+      <div class="author">
+        <small><i>
+          
+          by
+          <span itemprop="author">
+            
+            <span itemprop="author" itemscope itemtype="http://schema.org/Person">
+              <span itemprop="name">Ameya Sinha</span>
+            </span>
+            
+          </span>
+          
+          on <span itemprop="datePublished" content="2014-08-28">November 5, 2018</span>
+           under Algorithms
+        </i></small>
+      </div>
 
-            <p class="links">
-  <a href="https://www.linkedin.com/in/ameya-sinha-8a629012a/" target="_new"><i class="fa fa-linkedin"></i></a>
+      <div class="read-time">
+        <small>
+          2 minute read
+        </small>
+      </div>
 
-  <a href="https://github.com/ameyanator" target="_new"><i class="fa fa-github-alt"></i></a>
+      <div class="content-panel content">
 
-  <a href="mailto: ameyasinha26@gmail.com" target="_new"><i class="fa fa-at"></i></a>
+        
 
-  <a href="https://drive.google.com/file/d/1HI1YfRm76Qnfkl77FjMKf4tgtioEBOvG/view" target="_new"><i class="fa fa-download"></i></a>
+        <span itemprop="articleBody"><p>The Sieve of Eratosthenes has been forever famously been used to calculate and store Prime Numbers. This article is an explanation of how to do so.</p>
 
-  <a href="https://stackoverflow.com/users/6871012/ameya-sinha" target="_new"><i class="fa fa-stack-overflow"></i></a>
+<p><strong>What’s a prime number?</strong>: A number that is <strong>only</strong> divisible by itself and 1.</p>
 
-  <a href="https://www.twitter.com/luva1900" target="_new"><i class="fa fa-twitter"></i></a>
+<p>Traditional Method of checking whether a number (n) is prime or not is by iterating through all the numbers from 2 to (n-1) and if we find that a particular number (x) in between divides the number then we say that the number is not a prime. This particular check takes O(n) {linear time as you need to check each number in between}.
+Suppose you need to generate all the primes up to a given integer say N then you’ll spend O(N) time to iterate through the loop and to check whether each number (n) in between is prime or not you’ll have to spend O(n) time for each element.</p>
 
-  <a href="https://www.facebook.com/ameyanator" target="_new"><i class="fa fa-facebook"></i></a>
-  
-  
-  
-  
-  
-  <a href="https://www.instagram.com/ameyanator26" target="_new"><i class="fa fa-instagram"></i></a>
-  
-  <a href="https://www.reddit.com/u/ameyanator" target="_new"><i class="fa fa-reddit-alien"></i></a>
-  
-  <a href="/feed.xml" target="_new"><i class="fa fa-rss"></i></a>
-</p>
+<p>Thus the total time is O(N^2). Much too expensive!!</p>
 
-          </div>
-          <div class="col-md-12 main content-panel">
+<p>So we improve this solution by using the Sieve of Eratosthenes</p>
 
-            <div class="articles">
+<p><strong>Basic Logic of Sieve</strong>:<br />
+We start from 2 and proceed further for all numbers under n. For each number that we hit (which is 2 initially we strike of all it’s further multiples as they cannot be prime 4,6..). All the numbers that we haven’t stuck out at the end of this procedure will be prime. So basically this is how we proceed.<br />
+If a number has already been struck out I won’t write it again. You’ll see why later! 😉 be with me.</p>
 
-              <h2>Latest Articles</h2>
+<p><em>Conclude 2 is prime. 4,6,8,10….are not.<br />
+Conclude 3 is prime. 9,15,21…are not.(6,12,18 were already struck out because of 2).<br />
+Conclude 5 is prime 25,35….are not.<br />
+Continue this process till we have only prime numbers left under n.</em></p>
 
-              <ul>
-                  
+<p>Now as to why we didn’t write the numbers that were already struck out- If you observe that the first multiple of each prime number that is yet to be struck out is the square of the number. We”ll use this in our code :). You can also mathematically prove this. Conversely we’ll also only strike out multiples of numbers that are under sqrt(n) as the ones larger than it will be the prime numbers left which have no multiples under n.</p>
 
-                      <li>
-                          <a href="/algorithms/2018/11/11/CoinSums/">Coin Change Problem - 1</a>
-                          <small class="hidden-xs">November 11, 2018</small>
-                      </li>
+<p><strong>Coding Part</strong><br />
+<strong>Input:</strong> n-the number under which we need to print all the prime numbers.<br />
+<strong>Output:</strong> all the prime numbers under n<br />
+<strong>Logic:</strong> All even numbers except 2 are not prime. So we iterate on all odd numbers from 3 to the max value (msz) and check to see if we have seen multiples of this before. If we have not it is a prime number and we strike out further multiples of it. If we have then its not a prime number and we move on ahead.<br />
+At the end we store all the primes in a vector</p>
 
-                  
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>const int msz=2e4+1;
+vector&lt;int&gt; seen(msz);
+vector&lt;int&gt; primes;
 
-                      <li>
-                          <a href="/interviews/2018/11/09/InternshipMicrosoft/">Internship @ Microsoft!</a>
-                          <small class="hidden-xs">November 9, 2018</small>
-                      </li>
+void shieve()
+{
+	for(int i=3;i*i&lt;=msz;i+=2)
+	{
+		if(!seen[i])
+		{
+			for(int j=i*2;j&lt;=msz;j+=i)
+			{
+				seen[j]=1;
+			}
+		}
+	}
+	primes.push_back(2);
+	for(int i=3;i&lt;=msz;i+=2)
+	{
+		if(!seen[i]) primes.push_back(i);
+	}
+}
+</code></pre></div></div>
 
-                  
+<p>The time complexity of the Sieve of Eratosthenes is O(n(logn)(loglogn))</p>
+</span>
 
-                      <li>
-                          <a href="/100daysofcode/2018/11/08/My100DaysOfCode/">My100DaysOfCode - Milestones</a>
-                          <small class="hidden-xs">November 8, 2018</small>
-                      </li>
+        
 
-                  
-
-                      <li>
-                          <a href="/interviews/2018/11/07/Goldman-Sachs-Interview-Experience/">Goldman Sachs Interview Experience</a>
-                          <small class="hidden-xs">November 7, 2018</small>
-                      </li>
-
-                  
-
-                      <li>
-                          <a href="/algorithms/2018/11/05/SieveOfEratosthenes/">Sieve of Eratosthenes</a>
-                          <small class="hidden-xs">November 5, 2018</small>
-                      </li>
-
-                  
-                  <li>
-                      <small><i><a href="/posts/">more...</a></i></small>
-                  </li>
-              </ul>
-
-            </div>
-
+        
+        <div class="share">
+          <!-- Go to www.addthis.com/dashboard to customize your tools -->
+          <div class="addthis_sharing_toolbox"></div>
         </div>
+        
+
+        
+        <div class="tags">
+          <small>
+          <i class="fa fa-tags"></i>
+            Algorithms, Prime Numbers, Sieve
+          </small>
+        </div>
+        
+
+      </div>
+
+      
+      <div class="content-panel feedback">
+        I <i class="fa fa-heart"></i> feedback.<br />
+        Let me know what you think of this article on twitter <a href="http://www.twitter.com/luva1900">@luva1900</a>!
+      </div>
+      
+
+      
+
+      
 
     </div>
+
+  </div>
+
 </div>
+
+
 
       </div>
     </div>
@@ -215,48 +253,6 @@
    });
 </script>
 
-
-<script type="text/javascript">
-
-  function setFontSize() {
-
-    var title, dateOfTitle, fontSizeOfTitle, listOfA, listOfSmall, listOfArticlesDiv, divWidth;
-
-    listOfArticlesDiv = document.getElementsByClassName("articles");
-
-    for (i = 0; i < listOfArticlesDiv.length; i++) {
-
-      listOfA = document.getElementsByClassName("articles")[i].getElementsByTagName("a");
-      listOfSmall = document.getElementsByClassName("articles")[i].getElementsByTagName("small");
-
-      divWidth = document.getElementsByClassName("articles")[i].offsetWidth;
-
-      for (k = 0; k < listOfSmall.length; k++) {
-
-        title = $(listOfA[k]);
-        dateOfTitle = $(listOfSmall[k]);
-
-        fontSizeOfTitle = startingFontSize;
-        title.css("font-size", fontSizeOfTitle);
-
-        while (title.width() + dateOfTitle.width() >= divWidth)
-          title.css("font-size", fontSizeOfTitle -= 0.5);
-
-      }
-    }
-  }
-
-  function getStartFontSize() {
-    try {
-      startingFontSize = parseInt($(document.getElementsByClassName("articles")[0].getElementsByTagName("a")[0]).css("font-size"));
-      setFontSize();
-      window.addEventListener('resize', setFontSize, true);
-    } catch (e) {}
-  }
-
-  $(document).ready(getStartFontSize);
-
-</script>
 
 
 

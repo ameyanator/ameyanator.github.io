@@ -1,35 +1,43 @@
 [
   
   {
-    "title"    : "Welcome to Carte Noire",
+    "title"    : "Coin Change Problem - 1",
     "category" : "",
-    "tags"     : "welcome, to, carte, noire",
-    "url"      : "/jekyll/2015/03/23/welcome-to-carte-noir/",
-    "date"     : "2015-03-23 21:01:19 +0530"
+    "tags"     : "Algorithms, Dynamic Programming",
+    "url"      : "/algorithms/2018/11/11/CoinSums/",
+    "date"     : "2018-11-11 08:33:03 +0530"
     } ,
     
   {
-    "title"    : "Carte Noire in Action",
+    "title"    : "Internship @ Microsoft!",
     "category" : "",
-    "tags"     : "demo, action, carte, noire",
-    "url"      : "/jekyll/2014/06/10/carte-noire-in-action/",
-    "date"     : "2014-06-10 18:01:19 +0530"
+    "tags"     : "Microsoft, Internship, Interview",
+    "url"      : "/interviews/2018/11/09/InternshipMicrosoft/",
+    "date"     : "2018-11-09 08:33:03 +0530"
     } ,
     
   {
-    "title"    : "So, What is Jekyll?",
+    "title"    : "My100DaysOfCode - Milestones",
     "category" : "",
-    "tags"     : "about, jekyll",
-    "url"      : "/jekyll/2014/06/09/so-what-is-jekyll/",
-    "date"     : "2014-06-09 18:02:18 +0530"
+    "tags"     : "Coding, 100DaysOfCode",
+    "url"      : "/100daysofcode/2018/11/08/My100DaysOfCode/",
+    "date"     : "2018-11-08 08:33:03 +0530"
     } ,
     
   {
-    "title"    : "Using thumbnails",
+    "title"    : "Goldman Sachs Interview Experience",
     "category" : "",
-    "tags"     : "thumbnails, carte noire",
-    "url"      : "/jekyll/2014/06/08/using-thumbnails/",
-    "date"     : "2014-06-08 18:02:18 +0530"
+    "tags"     : "Internships, Interviews, Goldman Sachs, Experience",
+    "url"      : "/interviews/2018/11/07/Goldman-Sachs-Interview-Experience/",
+    "date"     : "2018-11-07 17:42:12 +0530"
+    } ,
+    
+  {
+    "title"    : "Sieve of Eratosthenes",
+    "category" : "",
+    "tags"     : "Algorithms, Prime Numbers, Sieve",
+    "url"      : "/algorithms/2018/11/05/SieveOfEratosthenes/",
+    "date"     : "2018-11-05 08:33:03 +0530"
     } 
     
   ]
