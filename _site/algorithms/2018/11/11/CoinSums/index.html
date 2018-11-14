@@ -4,7 +4,7 @@
     <head>
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Ameya Sinha</title>
+<title>Coin Change Problem - 1</title>
 <meta name="description" content="A dark blog theme for Jekyll.">
 
 <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
@@ -89,102 +89,135 @@
 
     <div class="page-content">
       <div class="wrap">
-      <div class="container-fluid index">
-    <div class="row">
+      
 
-        <div class="col-md-12 main content-panel">
+<div class="container-fluid single">
+  <div class="row">
 
-            <div class="gravatar">
-                <img src="https://avatars0.githubusercontent.com/u/20975496?s=400&v=4" class="img-circle about-image" height="150" width="150" alt="Ameya Sinha" />
-            </div>
+    <div itemscope itemtype="http://schema.org/Article" class="col-md-12 article">
+      
+      <div class="thumb">
+        <i class="fa fa-heart fa-4x"></i>
+      </div>
+      
 
-            <h1 class="header author-header" itemprop="headline">Ameya Sinha</h1>
+      <h1 class="header" itemprop="name">Coin Change Problem - 1</h1>
 
-            <div class="author-text">
-                Computer Science Undergraduate at Bits Pilani KK Birla Goa Campus.<br> Reader | Coder | Runner
-            </div>
+      <div class="author">
+        <small><i>
+          
+          by
+          <span itemprop="author">
+            
+            <span itemprop="author" itemscope itemtype="http://schema.org/Person">
+              <span itemprop="name">Ameya Sinha</span>
+            </span>
+            
+          </span>
+          
+          on <span itemprop="datePublished" content="2014-08-28">November 11, 2018</span>
+           under Algorithms
+        </i></small>
+      </div>
 
-            <p class="links">
-  <a href="https://www.linkedin.com/in/ameya-sinha-8a629012a/" target="_new"><i class="fa fa-linkedin"></i></a>
+      <div class="read-time">
+        <small>
+          2 minute read
+        </small>
+      </div>
 
-  <a href="https://github.com/ameyanator" target="_new"><i class="fa fa-github-alt"></i></a>
+      <div class="content-panel content">
 
-  <a href="mailto: ameyasinha26@gmail.com" target="_new"><i class="fa fa-at"></i></a>
+        
 
-  <a href="https://drive.google.com/file/d/1HI1YfRm76Qnfkl77FjMKf4tgtioEBOvG/view" target="_new"><i class="fa fa-download"></i></a>
+        <span itemprop="articleBody"><p>The motivation for this article is from the <a href="https://www.hackerrank.com/contests/projecteuler/challenges/euler031/problem">Coin Sums</a> problem on Project Euler+. The Coin Change Problem has troubled me a lot so here is an explanation for other troubled souls who come in search for solutions and wisdom.</p>
 
-  <a href="https://stackoverflow.com/users/6871012/ameya-sinha" target="_new"><i class="fa fa-stack-overflow"></i></a>
+<h2 id="problem-1">Problem 1</h2>
+<p>“Given the total sum and the types of coins find the number of ways that the sum can be formed using an infinite supply of the coins”</p>
 
-  <a href="https://www.twitter.com/luva1900" target="_new"><i class="fa fa-twitter"></i></a>
+<p>Note the order of coins does not matter. (1,1,2) is the same as (1,2,1) for a sum of 4.</p>
 
-  <a href="https://www.facebook.com/ameyanator" target="_new"><i class="fa fa-facebook"></i></a>
-  
-  
-  
-  
-  
-  <a href="https://www.instagram.com/ameyanator26" target="_new"><i class="fa fa-instagram"></i></a>
-  
-  <a href="https://www.reddit.com/u/ameyanator" target="_new"><i class="fa fa-reddit-alien"></i></a>
-  
-  <a href="/feed.xml" target="_new"><i class="fa fa-rss"></i></a>
-</p>
+<h3 id="logic">Logic</h3>
+<p>To count the number of ways to make change for a particular value N we can choose any coin c and then count the number of ways to make change for the value N - c.
+Now if we consider these coins sequentially we can decide to do either one of these -</p>
+<ol>
+  <li>Include this coin in calculating our answer and then find the number of ways to make a change of N-c value.</li>
+  <li>Exclude this coin in calculating our answer and in any further calculations.</li>
+</ol>
 
-          </div>
-          <div class="col-md-12 main content-panel">
+<p>Let the types of coins (denominations) be the same as that in Q31 of Project Euler+. We can represent our coins as a 1D vector. <code class="highlighter-rouge">vector&lt;int&gt; coins = {1,2,5,10,20,50,100,200};</code><br />
+Let <i>index</i> denote the current coin that we are having a look at.</p>
 
-            <div class="articles">
+<p>So our code is something like this now:</p>
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>int noOfWays(int N, int index)
+{
+    /*
+    calculate the number of ways to make N value with the given denominations considering the coin at position index
+    */
+    if(N == 0) return 1; //we have found a way
+    if(N &lt; 0) return 0; //it is not possible
+    if(index &lt; 0) return 0; //it is not possible
+    return noOfWays(N,index-1) + noOfWays(N-coins[index],index);
+    //case 1: we exclude the index'th coin from counting
+    //case 2: we include the index'th coin in this and further counting
+}
+</code></pre></div></div>
 
-              <h2>Latest Articles</h2>
+<p>All we need to do now is to memorize the solution so that we handle each case only once. The code would look something like this now -</p>
 
-              <ul>
-                  
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>int noOfWays(int N, int index)
+{
+    map&lt;pair&lt;int,int&gt;,int&gt; mp;
+    if(N == 0) return 1;
+    if(N &lt; 0) return 0; 
+    if(index &lt; 0) return 0; 
+    if(mp.find({N,index}) != mp.end()) return mp[{N,index}]; //if we have seen this pair of value previously then return it
+    return mp[{N,index}] = noOfWays(N,index-1) + noOfWays(N-coins[index],index); //otherwise store the value and then return it
+}
+</code></pre></div></div>
 
-                      <li>
-                          <a href="/algorithms/2018/11/11/CoinSums/">Coin Change Problem - 1</a>
-                          <small class="hidden-xs">November 11, 2018</small>
-                      </li>
+<p>That’s it! In less than 10 lines we have solved the Coin Change Problem! :D</p>
 
-                  
+</span>
 
-                      <li>
-                          <a href="/interviews/2018/11/09/InternshipMicrosoft/">Internship @ Microsoft!</a>
-                          <small class="hidden-xs">November 9, 2018</small>
-                      </li>
+        
 
-                  
-
-                      <li>
-                          <a href="/100daysofcode/2018/11/08/My100DaysOfCode/">My100DaysOfCode - Milestones</a>
-                          <small class="hidden-xs">November 8, 2018</small>
-                      </li>
-
-                  
-
-                      <li>
-                          <a href="/interviews/2018/11/07/Goldman-Sachs-Interview-Experience/">Goldman Sachs Interview Experience</a>
-                          <small class="hidden-xs">November 7, 2018</small>
-                      </li>
-
-                  
-
-                      <li>
-                          <a href="/algorithms/2018/11/05/SieveOfEratosthenes/">Sieve of Eratosthenes</a>
-                          <small class="hidden-xs">November 5, 2018</small>
-                      </li>
-
-                  
-                  <li>
-                      <small><i><a href="/posts/">more...</a></i></small>
-                  </li>
-              </ul>
-
-            </div>
-
+        
+        <div class="share">
+          <!-- Go to www.addthis.com/dashboard to customize your tools -->
+          <div class="addthis_sharing_toolbox"></div>
         </div>
+        
+
+        
+        <div class="tags">
+          <small>
+          <i class="fa fa-tags"></i>
+            Algorithms, Dynamic Programming
+          </small>
+        </div>
+        
+
+      </div>
+
+      
+      <div class="content-panel feedback">
+        I <i class="fa fa-heart"></i> feedback.<br />
+        Let me know what you think of this article on twitter <a href="http://www.twitter.com/luva1900">@luva1900</a>!
+      </div>
+      
+
+      
+
+      
 
     </div>
+
+  </div>
+
 </div>
+
+
 
       </div>
     </div>
@@ -215,48 +248,6 @@
    });
 </script>
 
-
-<script type="text/javascript">
-
-  function setFontSize() {
-
-    var title, dateOfTitle, fontSizeOfTitle, listOfA, listOfSmall, listOfArticlesDiv, divWidth;
-
-    listOfArticlesDiv = document.getElementsByClassName("articles");
-
-    for (i = 0; i < listOfArticlesDiv.length; i++) {
-
-      listOfA = document.getElementsByClassName("articles")[i].getElementsByTagName("a");
-      listOfSmall = document.getElementsByClassName("articles")[i].getElementsByTagName("small");
-
-      divWidth = document.getElementsByClassName("articles")[i].offsetWidth;
-
-      for (k = 0; k < listOfSmall.length; k++) {
-
-        title = $(listOfA[k]);
-        dateOfTitle = $(listOfSmall[k]);
-
-        fontSizeOfTitle = startingFontSize;
-        title.css("font-size", fontSizeOfTitle);
-
-        while (title.width() + dateOfTitle.width() >= divWidth)
-          title.css("font-size", fontSizeOfTitle -= 0.5);
-
-      }
-    }
-  }
-
-  function getStartFontSize() {
-    try {
-      startingFontSize = parseInt($(document.getElementsByClassName("articles")[0].getElementsByTagName("a")[0]).css("font-size"));
-      setFontSize();
-      window.addEventListener('resize', setFontSize, true);
-    } catch (e) {}
-  }
-
-  $(document).ready(getStartFontSize);
-
-</script>
 
 
 
