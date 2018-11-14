@@ -10,7 +10,7 @@ tags:
  - Coding
  - 100DaysOfCode
 ---
-
+![Image of Microsoft][5]
 This winter vacations I plan to take the [100DaysOfCode][1] Challenge. You can follow my progress on [Github][2] or on [Twitter][3].
 
 Here is my milstones page :)
@@ -27,7 +27,7 @@ Here is my milstones page :)
 &nbsp;&nbsp;&nbsp;&nbsp; 1. [Codechef](https://www.codechef.com/users/ameyanator)  
 &nbsp;&nbsp;&nbsp;&nbsp; 2. [Hackerrank](https://www.hackerrank.com/ameyanator)  
 &nbsp;&nbsp;&nbsp;&nbsp; 3. [Spoj](https://www.spoj.com/users/ameyanator)  
-&nbsp;&nbsp;&nbsp;&nbsp; 4. [Codeforces](https://codeforces.com/profile/ameyanator) 
+&nbsp;&nbsp;&nbsp;&nbsp; 4. [Codeforces](https://codeforces.com/profile/ameyanator)
 
 * Completed these MOOCS  
 &nbsp;&nbsp;&nbsp;&nbsp; 1. [Algorithmic Toolbox][4]  
@@ -45,3 +45,4 @@ Here is my milstones page :)
 [2]: https://github.com/ameyanator/100-days-of-code/blob/master/log.md
 [3]: https://twitter.com/luva1900
 [4]: https://www.coursera.org/account/accomplishments/certificate/TRWXN55FQFQ4
+[5]: /images/100DaysOfCode.jpg
