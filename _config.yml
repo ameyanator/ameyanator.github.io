@@ -1,29 +1,31 @@
 # Site settings
-title: "Ameya Sinha"
-email: ameyasinha26@gmail.com
+title: "Carte Noire"
+email: jacob@jacobtomlinson.co.uk
 description: "A dark blog theme for Jekyll."
 baseurl: ""
-url: ""
-title_description: "Computer Science Undergraduate at Bits Pilani KK Birla Goa Campus.<br> Reader | Coder | Runner"
-title_image: "https://avatars0.githubusercontent.com/u/20975496?s=400&v=4"
-google_analytics: "UA-129019216-1"
-disqus_account: ameyasinha
-github_repository: https://github.com/ameyanator/ameyanator.github.io
+url: "http://carte-noire.jacobtomlinson.co.uk/"
+title_description: "A dark blog theme for Jekyll focusing on a clear reading experience. Large text and a narrow body makes carte noire a gorgeous read. With excellent code snippet support and integrated tools such as AddThis and Disqus giving your Jekyll blog all the functionality your users expect."
+title_image: "https://www.gravatar.com/avatar/00000000000000000000000000000000?s=500&d=mm"
+google_analytics: "UA-20365477-4"
+disqus_account: cartenoire
+github_repository: https://github.com/jacobtomlinson/carte-noire
 addthis_id: ra-513c6fa83da6ec67
-post_limit: 7
+post_limit: 5
 
 # Social usernames/URLs
-twitter_username: luva1900
-github_username:  ameyanator
-instagram_username: ameyanator26
-reddit_username: ameyanator
-linkedin_link: https://www.linkedin.com/in/ameya-sinha-8a629012a/
-google_plus_link:
-stackoverflow_link: https://stackoverflow.com/users/6871012/ameya-sinha
+twitter_username: _jacobtomlinson
+github_username:  jacobtomlinson
+instagram_username:
+reddit_username:
+linkedin_link: http://carte-noire.jacobtomlinson.co.uk/
+google_plus_link: http://carte-noire.jacobtomlinson.co.uk/
+stackoverflow_link: http://carte-noire.jacobtomlinson.co.uk/
 xing_link:
-facebook_link: https://www.facebook.com/ameyanator
-gmail_link: ameyasinha26@gmail.com
-CV_link: https://drive.google.com/file/d/1HI1YfRm76Qnfkl77FjMKf4tgtioEBOvG/view
+facebook_link:
+
+# Footer
+footer_left: "Made with <i class=\"fa fa-heart\"></i> by <a href=\"https://twitter.com/_JacobTomlinson\">Jacob Tomlinson</a>"
+footer_right: "&lt;/&gt; on <a href=\"https://github.com/jacobtomlinson/carte-noire\">Github</a> &nbsp;<i class=\"fa fa-github-alt\"></i>"
 
 # Build settings
 markdown: kramdown
@@ -34,4 +36,3 @@ kramdown:
 
 permalink: pretty
 exclude: [vendor]
-
