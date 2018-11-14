@@ -5,295 +5,227 @@
     <description>A dark blog theme for Jekyll.</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Wed, 14 Nov 2018 19:17:25 +0530</pubDate>
-    <lastBuildDate>Wed, 14 Nov 2018 19:17:25 +0530</lastBuildDate>
+    <pubDate>Wed, 14 Nov 2018 21:50:50 +0530</pubDate>
+    <lastBuildDate>Wed, 14 Nov 2018 21:50:50 +0530</lastBuildDate>
     <generator>Jekyll v3.8.5</generator>
     
       <item>
-        <title>Coin Change Problem - 1</title>
-        <description>&lt;p&gt;The motivation for this article is from the &lt;a href=&quot;https://www.hackerrank.com/contests/projecteuler/challenges/euler031/problem&quot;&gt;Coin Sums&lt;/a&gt; problem on Project Euler+. The Coin Change Problem has troubled me a lot so here is an explanation for other troubled souls who come in search for solutions and wisdom.&lt;/p&gt;
+        <title>Welcome to Carte Noire</title>
+        <description>&lt;p&gt;Welcome to Carte Noire.&lt;/p&gt;
 
-&lt;h2 id=&quot;problem-1&quot;&gt;Problem 1&lt;/h2&gt;
-&lt;p&gt;“Given the total sum and the types of coins find the number of ways that the sum can be formed using an infinite supply of the coins”&lt;/p&gt;
+&lt;p&gt;Carte Noire began as a new theme for &lt;a href=&quot;http://www.jacobtomlinson.co.uk/&quot;&gt;my personal blog&lt;/a&gt;, but has now taken
+on a life of its own as a free theme for Jekyll.&lt;/p&gt;
 
-&lt;p&gt;Note the order of coins does not matter. (1,1,2) is the same as (1,2,1) for a sum of 4.&lt;/p&gt;
+&lt;p&gt;The theme has been designed with simplicity and readability in mind. It makes
+use of third party services such as Disqus ad AddThis to ensure the blog has
+all the features you would expect from a dynamic application such as Wordpress
+but with the hosting and maintenance simplicity of Jekyll.&lt;/p&gt;
 
-&lt;h3 id=&quot;logic&quot;&gt;Logic&lt;/h3&gt;
-&lt;p&gt;To count the number of ways to make change for a particular value N we can choose any coin c and then count the number of ways to make change for the value N - c.
-Now if we consider these coins sequentially we can decide to do either one of these -&lt;/p&gt;
+&lt;p&gt;Please use/copy/share Carte Noire!&lt;/p&gt;
+
+</description>
+        <pubDate>Mon, 23 Mar 2015 21:01:19 +0530</pubDate>
+        <link>http://localhost:4000/jekyll/2015/03/23/welcome-to-carte-noir/</link>
+        <guid isPermaLink="true">http://localhost:4000/jekyll/2015/03/23/welcome-to-carte-noir/</guid>
+        
+        <category>welcome</category>
+        
+        <category>to</category>
+        
+        <category>carte</category>
+        
+        <category>noire</category>
+        
+        
+        <category>jekyll</category>
+        
+      </item>
+    
+      <item>
+        <title>Carte Noire in Action</title>
+        <description>&lt;p&gt;&lt;strong&gt;Note&lt;/strong&gt; - This article is a derivative of &lt;a href=&quot;http://pixyll.com/jekyll/pixyll/2014/06/10/see-pixyll-in-action/&quot;&gt;“See pixyll in action”&lt;/a&gt;, taken from the lovely jekyll theme &lt;a href=&quot;http://pixyll.com/&quot;&gt;pixyll&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;All links are easy to &lt;a href=&quot;#&quot;&gt;locate and discern&lt;/a&gt;, yet don’t detract from the harmony
+of a paragraph. The &lt;em&gt;same&lt;/em&gt; goes for italics and &lt;strong&gt;bold&lt;/strong&gt; elements. Even the the strikeout
+works if &lt;del&gt;for some reason you need to update your post&lt;/del&gt;. For consistency’s sake,
+&lt;ins&gt;The same goes for insertions&lt;/ins&gt;, of course.&lt;/p&gt;
+
+&lt;h3 id=&quot;code-with-syntax-highlighting&quot;&gt;Code, with syntax highlighting&lt;/h3&gt;
+
+&lt;p&gt;Code blocks use the &lt;a href=&quot;https://noahfrederick.com/log/lion-terminal-theme-peppermint/&quot;&gt;peppermint&lt;/a&gt; theme.&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;k&quot;&gt;class&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;Awesome&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;ActiveRecord&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;::&lt;/span&gt;&lt;span class=&quot;no&quot;&gt;Base&lt;/span&gt;
+  &lt;span class=&quot;kp&quot;&gt;include&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;EvenMoreAwesome&lt;/span&gt;
+
+  &lt;span class=&quot;n&quot;&gt;validates_presence_of&lt;/span&gt; &lt;span class=&quot;ss&quot;&gt;:something&lt;/span&gt;
+  &lt;span class=&quot;n&quot;&gt;validates&lt;/span&gt; &lt;span class=&quot;ss&quot;&gt;:email&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;ss&quot;&gt;email_format: &lt;/span&gt;&lt;span class=&quot;kp&quot;&gt;true&lt;/span&gt;
+
+  &lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;initialize&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;email&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;kp&quot;&gt;nil&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+    &lt;span class=&quot;nb&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;email&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;email&lt;/span&gt;
+    &lt;span class=&quot;nb&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;name&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;
+  &lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;div class=&quot;language-html highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;cp&quot;&gt;&amp;lt;!DOCTYPE html&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;title&amp;gt;&lt;/span&gt;Title&lt;span class=&quot;nt&quot;&gt;&amp;lt;/title&amp;gt;&lt;/span&gt;
+
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;style&amp;gt;body&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;nl&quot;&gt;width&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;500px&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;}&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;/style&amp;gt;&lt;/span&gt;
+
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;script &lt;/span&gt;&lt;span class=&quot;na&quot;&gt;type=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;application/javascript&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
+  &lt;span class=&quot;kd&quot;&gt;function&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;$init&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;kc&quot;&gt;true&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;}&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;/script&amp;gt;&lt;/span&gt;
+
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;body&amp;gt;&lt;/span&gt;
+  &lt;span class=&quot;nt&quot;&gt;&amp;lt;p&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;checked&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;title&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;id=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;'title'&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;Title&lt;span class=&quot;nt&quot;&gt;&amp;lt;/p&amp;gt;&lt;/span&gt;
+  &lt;span class=&quot;c&quot;&gt;&amp;lt;!-- here goes the rest of the page --&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;/body&amp;gt;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h1 id=&quot;headings&quot;&gt;Headings!&lt;/h1&gt;
+
+&lt;p&gt;They’re responsive, and well-proportioned (in &lt;code class=&quot;highlighter-rouge&quot;&gt;padding&lt;/code&gt;, &lt;code class=&quot;highlighter-rouge&quot;&gt;line-height&lt;/code&gt;, &lt;code class=&quot;highlighter-rouge&quot;&gt;margin&lt;/code&gt;, and &lt;code class=&quot;highlighter-rouge&quot;&gt;font-size&lt;/code&gt;).&lt;/p&gt;
+
+&lt;h5 id=&quot;they-draw-the-perfect-amount-of-attention&quot;&gt;They draw the perfect amount of attention&lt;/h5&gt;
+
+&lt;p&gt;This allows your content to have the proper informational and contextual hierarchy. Yay.&lt;/p&gt;
+
+&lt;h3 id=&quot;there-are-lists-too&quot;&gt;There are lists, too&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Apples&lt;/li&gt;
+  &lt;li&gt;Oranges&lt;/li&gt;
+  &lt;li&gt;Potatoes&lt;/li&gt;
+  &lt;li&gt;Milk&lt;/li&gt;
+&lt;/ul&gt;
+
 &lt;ol&gt;
-  &lt;li&gt;Include this coin in calculating our answer and then find the number of ways to make a change of N-c value.&lt;/li&gt;
-  &lt;li&gt;Exclude this coin in calculating our answer and in any further calculations.&lt;/li&gt;
+  &lt;li&gt;Mow the lawn&lt;/li&gt;
+  &lt;li&gt;Feed the dog&lt;/li&gt;
+  &lt;li&gt;Dance&lt;/li&gt;
 &lt;/ol&gt;
 
-&lt;p&gt;Let the types of coins (denominations) be the same as that in Q31 of Project Euler+. We can represent our coins as a 1D vector. &lt;code class=&quot;highlighter-rouge&quot;&gt;vector&amp;lt;int&amp;gt; coins = {1,2,5,10,20,50,100,200};&lt;/code&gt;&lt;br /&gt;
-Let &lt;i&gt;index&lt;/i&gt; denote the current coin that we are having a look at.&lt;/p&gt;
+&lt;h3 id=&quot;images-look-great-too&quot;&gt;Images look great, too&lt;/h3&gt;
 
-&lt;p&gt;So our code is something like this now:&lt;/p&gt;
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;int noOfWays(int N, int index)
-{
-    /*
-    calculate the number of ways to make N value with the given denominations considering the coin at position index
-    */
-    if(N == 0) return 1; //we have found a way
-    if(N &amp;lt; 0) return 0; //it is not possible
-    if(index &amp;lt; 0) return 0; //it is not possible
-    return noOfWays(N,index-1) + noOfWays(N-coins[index],index);
-    //case 1: we exclude the index'th coin from counting
-    //case 2: we include the index'th coin in this and further counting
-}
+&lt;p&gt;&lt;img src=&quot;https://i.imgur.com/DMCHDqF.jpg&quot; alt=&quot;Thumper&quot; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;stylish-blockquotes-included&quot;&gt;Stylish blockquotes included&lt;/h3&gt;
+
+&lt;p&gt;You can use the markdown quote syntax, &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;gt;&lt;/code&gt; for simple quotes.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse quis porta mauris.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h3 id=&quot;latex-support&quot;&gt;LaTeX support&lt;/h3&gt;
+
+&lt;p&gt;The default math delimiters are $$. Hence &lt;code class=&quot;highlighter-rouge&quot;&gt;$$ E = m \cdot c^2 $$&lt;/code&gt; yields &lt;script type=&quot;math/tex&quot;&gt;E = m \cdot c^2&lt;/script&gt;&lt;/p&gt;
+
+&lt;p&gt;And here’s something more fancy:&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;\zeta(s) = \frac{1}{\Gamma(s)} \int \limits_0^\infty x^{s-1} \sum_{n=1}^\infty e^{-nx} \mathrm{d}x = \frac{1}{\Gamma(s)} \int \limits_0^\infty \frac{x^{s-1}}{e^x - 1} \mathrm{d}x&lt;/script&gt;
+
+&lt;h3 id=&quot;theres-more-being-added-all-the-time&quot;&gt;There’s more being added all the time&lt;/h3&gt;
+
+&lt;p&gt;Checkout the &lt;a href=&quot;https://github.com/jacobtomlinson/carte-noire&quot;&gt;Github repository&lt;/a&gt; to request,
+or add, features.&lt;/p&gt;
+
+&lt;p&gt;Happy writing.&lt;/p&gt;
+
+</description>
+        <pubDate>Tue, 10 Jun 2014 18:01:19 +0530</pubDate>
+        <link>http://localhost:4000/jekyll/2014/06/10/carte-noire-in-action/</link>
+        <guid isPermaLink="true">http://localhost:4000/jekyll/2014/06/10/carte-noire-in-action/</guid>
+        
+        <category>demo</category>
+        
+        <category>action</category>
+        
+        <category>carte</category>
+        
+        <category>noire</category>
+        
+        
+        <category>jekyll</category>
+        
+      </item>
+    
+      <item>
+        <title>So, What is Jekyll?</title>
+        <description>&lt;p&gt;Jekyll is a tool for transforming your plain text into static websites and
+blogs. It is simple, static, and blog-aware. Jekyll uses the
+&lt;a href=&quot;http://docs.shopify.com/themes/liquid-basics&quot;&gt;Liquid&lt;/a&gt; templating
+language and has builtin &lt;a href=&quot;http://daringfireball.net/projects/markdown/&quot;&gt;Markdown&lt;/a&gt;
+and &lt;a href=&quot;http://en.wikipedia.org/wiki/Textile_(markup_language)&quot;&gt;Textile&lt;/a&gt; support.&lt;/p&gt;
+
+&lt;p&gt;It also ties in nicely to &lt;a href=&quot;https://pages.github.com/&quot;&gt;Github Pages&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Learn more about Jekyll on their &lt;a href=&quot;http://jekyllrb.com/&quot;&gt;website&lt;/a&gt;.&lt;/p&gt;
+</description>
+        <pubDate>Mon, 09 Jun 2014 18:02:18 +0530</pubDate>
+        <link>http://localhost:4000/jekyll/2014/06/09/so-what-is-jekyll/</link>
+        <guid isPermaLink="true">http://localhost:4000/jekyll/2014/06/09/so-what-is-jekyll/</guid>
+        
+        <category>about</category>
+        
+        <category>jekyll</category>
+        
+        
+        <category>jekyll</category>
+        
+      </item>
+    
+      <item>
+        <title>Using thumbnails</title>
+        <description>&lt;p&gt;Carte Noire is designed to start each article with an all-white image as a
+thumbnail. These are created by adding a &lt;code class=&quot;highlighter-rouge&quot;&gt;thumbnail&lt;/code&gt; parameter to the article’s
+&lt;a href=&quot;http://jekyllrb.com/docs/frontmatter/&quot;&gt;YAML frontmatter&lt;/a&gt;. This thumbnail parameter is processed in one of two ways,
+images specified in &lt;code class=&quot;highlighter-rouge&quot;&gt;_data/thumbnails.yml&lt;/code&gt; or using &lt;a href=&quot;http://fortawesome.github.io/Font-Awesome/&quot;&gt;Font Awesome&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h2 id=&quot;images&quot;&gt;Images&lt;/h2&gt;
+
+&lt;p&gt;To use your own custom images as a thumbnail you must upload them to a web available
+location (I use &lt;a href=&quot;http://imgur.com/&quot;&gt;Imgur&lt;/a&gt;) and then you need to add the url to &lt;code class=&quot;highlighter-rouge&quot;&gt;_data/thumbnail.yml&lt;/code&gt;
+with an associated keyword.&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;jekyll: &quot;http://i.imgur.com/aRQcGSi.png&quot;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
-&lt;p&gt;All we need to do now is to memorize the solution so that we handle each case only once. The code would look something like this now -&lt;/p&gt;
+&lt;p&gt;You then add a &lt;code class=&quot;highlighter-rouge&quot;&gt;thumbnail&lt;/code&gt; option to the article’s frontmatter and provide the keyword
+for that thumbnail.&lt;/p&gt;
 
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;int noOfWays(int N, int index)
-{
-    map&amp;lt;pair&amp;lt;int,int&amp;gt;,int&amp;gt; mp;
-    if(N == 0) return 1;
-    if(N &amp;lt; 0) return 0; 
-    if(index &amp;lt; 0) return 0; 
-    if(mp.find({N,index}) != mp.end()) return mp[{N,index}]; //if we have seen this pair of value previously then return it
-    return mp[{N,index}] = noOfWays(N,index-1) + noOfWays(N-coins[index],index); //otherwise store the value and then return it
-}
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;thumbnail: jekyll
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
-&lt;p&gt;That’s it! In less than 10 lines we have solved the Coin Change Problem! :D&lt;/p&gt;
+&lt;p&gt;This allows you to re-use thumbnails across multiple articles without having to
+specify the url each time.&lt;/p&gt;
 
-</description>
-        <pubDate>Sun, 11 Nov 2018 08:33:03 +0530</pubDate>
-        <link>http://localhost:4000/algorithms/2018/11/11/CoinSums/</link>
-        <guid isPermaLink="true">http://localhost:4000/algorithms/2018/11/11/CoinSums/</guid>
-        
-        <category>Algorithms</category>
-        
-        <category>Dynamic Programming</category>
-        
-        
-        <category>Algorithms</category>
-        
-      </item>
-    
-      <item>
-        <title>Internship @ Microsoft!</title>
-        <description>&lt;p&gt;This summer I will be interning at Microsoft India!&lt;br /&gt;
-I was lucky enough to bag an internship from Microsoft and this triggered many of my ‘firsts’. I got my first (uh oh proper) internship which got me my first offer letter and will be my first professional experience in the Industry.&lt;/p&gt;
+&lt;h2 id=&quot;font-awesome&quot;&gt;Font Awesome&lt;/h2&gt;
 
-&lt;p&gt;Here is how the process of interview process of Microsoft for internships was like -&lt;br /&gt;
-The process kicks off with a coding round held on the CoCubes platform. Three questions, seventy-five minutes for ten marks total (2+3+5) are asked. Each student gets a different set of three questions and the questions asked are mainly from Trees, Linked Lists, Strings, Arrays, and Sortings.&lt;/p&gt;
+&lt;p&gt;If jekyll can’t find a corresponding image in your &lt;code class=&quot;highlighter-rouge&quot;&gt;thumbnail.yml&lt;/code&gt; file then it
+will assume you want to use a Font Awesome icon instead. You can find the full
+list of Font Awesome icons &lt;a href=&quot;http://fortawesome.github.io/Font-Awesome/icons/&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
 
-&lt;p&gt;Students are shortlisted on basis of this round and called for the next which is the Group Fly Round. In this round, we are supposed to code two questions with at least one degree of optimization in each of them. Microsoft employees are there around to help us understand the question and to discuss our solutions with them. It is very important to discuss the solution with them before coding the problem as they guide us with the problem so that we stay on the right track.&lt;/p&gt;
+&lt;p&gt;So for example if your article is about android and you want to use the &lt;a href=&quot;http://fortawesome.github.io/Font-Awesome/icon/android/&quot;&gt;android icon&lt;/a&gt;
+from font awesome you can just specify the following in your frontmatter.&lt;/p&gt;
 
-&lt;p&gt;Next, we have the technical interviews :). Each student has to answer at least two interviews to proceed to the further rounds and at least three to be selected for the internship. However, there is no cap on the number of technical interviews a student goes through. I had answered three, many of my friends who were selected had answered four. There was also a person I think, who had answered five rounds of technical interviews before they rejected him/her. So all I can say is until you get the offer in your hand do not take anything for granted.&lt;/p&gt;
-
-&lt;p&gt;After the technical rounds, we were asked to wait outside while they decided on which students to select. They then called us in congratulated us and handed over goodies to us (T-shirts and stickers). As I went to get mine the HR looked over to the hiring manager and laughed while pointing at me and saying ‘look he decided to come here’. (Background - I had my Goldman Sachs interviews on the same day). After this jokes were cracked, pictures were taken and selfies pouted.&lt;/p&gt;
-
-&lt;p&gt;The whole process took around 12 hours for me (8 AM to 7.40ish PM) with eight interviews (both the companies combined). After calling my parents and my cousin I immediately hit the sack :P.&lt;/p&gt;
-
-&lt;p&gt;Annnnd that is how the most significant day of my life till now had panned out to be. I cannot be more excited about this internship.&lt;/p&gt;
-
-&lt;p&gt;Summer 2019 you where art though?&lt;/p&gt;
-</description>
-        <pubDate>Fri, 09 Nov 2018 08:33:03 +0530</pubDate>
-        <link>http://localhost:4000/interviews/2018/11/09/InternshipMicrosoft/</link>
-        <guid isPermaLink="true">http://localhost:4000/interviews/2018/11/09/InternshipMicrosoft/</guid>
-        
-        <category>Microsoft</category>
-        
-        <category>Internship</category>
-        
-        <category>Interview</category>
-        
-        
-        <category>Interviews</category>
-        
-      </item>
-    
-      <item>
-        <title>My100DaysOfCode - Milestones</title>
-        <description>&lt;p&gt;This winter vacations I plan to take the &lt;a href=&quot;https://www.100daysofcode.com/&quot;&gt;100DaysOfCode&lt;/a&gt; Challenge. You can follow my progress on &lt;a href=&quot;https://github.com/ameyanator/100-days-of-code/blob/master/log.md&quot;&gt;Github&lt;/a&gt; or on &lt;a href=&quot;https://twitter.com/luva1900&quot;&gt;Twitter&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;Here is my milstones page :)&lt;/p&gt;
-
-&lt;h3 id=&quot;things-i-did-before-the-challenge&quot;&gt;Things I did before the challenge&lt;/h3&gt;
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;Took the following classes at my university&lt;br /&gt;
-     1. Data Structures and Algorithms &lt;br /&gt;
-     2. Object Oriented Programming&lt;br /&gt;
-     3. Database Management Systems&lt;br /&gt;
-     4. Operating Systems&lt;br /&gt;
-     5. Data Mining&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Solved Competitive Coding questions on&lt;br /&gt;
-     1. &lt;a href=&quot;https://www.codechef.com/users/ameyanator&quot;&gt;Codechef&lt;/a&gt;&lt;br /&gt;
-     2. &lt;a href=&quot;https://www.hackerrank.com/ameyanator&quot;&gt;Hackerrank&lt;/a&gt;&lt;br /&gt;
-     3. &lt;a href=&quot;https://www.spoj.com/users/ameyanator&quot;&gt;Spoj&lt;/a&gt;&lt;br /&gt;
-     4. &lt;a href=&quot;https://codeforces.com/profile/ameyanator&quot;&gt;Codeforces&lt;/a&gt;&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Completed these MOOCS&lt;br /&gt;
-     1. &lt;a href=&quot;https://www.coursera.org/account/accomplishments/certificate/TRWXN55FQFQ4&quot;&gt;Algorithmic Toolbox&lt;/a&gt;&lt;/p&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;things-i-knew-before-the-challenge&quot;&gt;Things I knew before the challenge&lt;/h3&gt;
-&lt;ul&gt;
-  &lt;li&gt;Languages&lt;br /&gt;
-     1. C (Beginner)&lt;br /&gt;
-     2. Java (Beginner)&lt;br /&gt;
-     3. C++ (Intermediate)&lt;br /&gt;
-     4. Python (Beginner)&lt;br /&gt;
-     5. Javascript (Beginner)&lt;br /&gt;
-     6. MySql (Intermediate)&lt;/li&gt;
-&lt;/ul&gt;
-
-</description>
-        <pubDate>Thu, 08 Nov 2018 08:33:03 +0530</pubDate>
-        <link>http://localhost:4000/100daysofcode/2018/11/08/My100DaysOfCode/</link>
-        <guid isPermaLink="true">http://localhost:4000/100daysofcode/2018/11/08/My100DaysOfCode/</guid>
-        
-        <category>Coding</category>
-        
-        <category>100DaysOfCode</category>
-        
-        
-        <category>100DaysOfCode</category>
-        
-      </item>
-    
-      <item>
-        <title>Goldman Sachs Interview Experience</title>
-        <description>&lt;p&gt;Goldman Sachs had come to our campus to hire students for both Placements and Internships. This article describes the experience for internships but at the end, I’ve added the link to the coding question that was asked for placements too.&lt;/p&gt;
-
-&lt;h2 id=&quot;round-1-the-coding--aptitude-round&quot;&gt;Round 1, The Coding + Aptitude Round&lt;/h2&gt;
-
-&lt;p&gt;This round was open to students for all branches.
-This round consisted of one Coding question and Logical + Aptitude + Core CS fundamental questions. The coding question was a spinoff of the &lt;a href=&quot;https://www.geeksforgeeks.org/longest-increasing-subsequence-dp-3/&quot;&gt;Longest Increasing Subsequence&lt;/a&gt; problem. It wasn’t a direct question and we had to reduce the problem to the LIS problem. One required knowledge of STL and experience of working with LIS problems to solve it. The other questions in the section were related to computer science fundamentals and were of multiple choice in nature. Some of the topics that the questions were asked from were –&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;Time Complexity (Algorithm was described and we were asked to find the complexity)&lt;/li&gt;
-  &lt;li&gt;Binary Search (To find the number of recursions)&lt;/li&gt;
-  &lt;li&gt;Kruskal’s Algorithm (Problem reduced to finding the number of times we do the ‘union’ in Kruskal’s Algorithm)&lt;/li&gt;
-  &lt;li&gt;Object Oriented Programming (Basic OOP questions)&lt;/li&gt;
-  &lt;li&gt;Probability (Basic Probability)&lt;/li&gt;
-  &lt;li&gt;BFS and DFS (very non-trivial, we were asked to find the complexity of a spin-off version of the DFS/BFS algorithms)&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;I would like to mention that only solving the coding questions completely does not mean that you will be shortlisted. I think that they definitely have a section wise cutoff for the Aptitude questions that one needs to fulfill. Some of my friends had solved the coding question completely but were not shortlisted but others who had not solved the coding question but a good number of aptitude questions were shortlisted. However if they considered CGPA or other factors for shortlisting, I do not know.&lt;/p&gt;
-
-&lt;p&gt;Out of 190 students who had answered the round 30 were selected.&lt;/p&gt;
-
-&lt;h2 id=&quot;round-2-the-technical-interview-rounds&quot;&gt;Round 2, The Technical Interview Rounds&lt;/h2&gt;
-
-&lt;p&gt;My first Interview with Goldman Sachs had gone terribly. The interviewer had asked me a question for which I had no idea (later I got to know that no one had been able to solve this question). It was a DP question which went something like finding the number of ways in which I can build a wall with some predefined specifications (brick sizes given, edges of the bricks should not overlap etc). I had no idea so I just tried to brute it for height = 1 and width = 1 to w, then for height = 2 and width = 1 to w and so on. I was expecting a pattern to come up but could not find any. I had even made a mistake in one of the cases and the interviewer had pointed it out to me. At that moment I was thinking that there would be no chance for me to further in this company. However, I tried my best to keep on bruting the solutions to find a pattern (which I could not). In the end, the interviewer told me that he had ‘seen what he needed to see’ and that I can leave.&lt;/p&gt;
-
-&lt;p&gt;Each student was supposed to answer two rounds before they announced who would proceed to the further rounds. So I was lucky to get to answer another round.&lt;/p&gt;
-
-&lt;p&gt;This round went exceptionally well for me. The interviewer was very friendly and she made sure that I was comfortable before proceeding with the questions. She started by asking me what all sorting algorithms that I know of, to which I answered Merge, Insertion, Quick, Heap, Bubble, Selection and even Tim. She then asked me a few questions related to them (which would be better to use when, complexity, some pseudo code, tradeoffs etc). She also asked a few questions related to the Tim Sort which I was able to answer correctly and it seemed that she was impressed. She then asked me which of the sorts are stable. I reasoned about them one by one and got all of them correct. Next, she asked me a few coding questions from trees which were basic in nature. She also asked me if I had solved this &lt;a href=&quot;https://www.geeksforgeeks.org/construct-tree-from-given-inorder-and-preorder-traversal/&quot;&gt;question&lt;/a&gt; previously, to which I replied that I hadn’t. She then explained the question and asked me to code it. I was able to code it properly and also write the test cases. She seemed happy with me as I had answered all the questions correctly until now and then she asked me some HR questions. Why Goldman Sachs, motivation in your life etc.&lt;/p&gt;
-
-&lt;p&gt;I was selected for the next round.&lt;/p&gt;
-
-&lt;h2 id=&quot;round-3-the-final-technical-round&quot;&gt;Round 3, The Final Technical Round&lt;/h2&gt;
-
-&lt;p&gt;In this round, I was asked to design an Air Traffic Control System something like what’s given in this &lt;a href=&quot;https://www.careercup.com/question?id=21729663&quot;&gt;link&lt;/a&gt;. I started out with abstracting the problem but the interviewer said that he was not interested in these abstractions but was more interested in how I handle all the specifications that he had provided. He had actually provided a lot of them. Some of them were – Plane comes in every 2 mins, Plane that is in the hanger is ready to leave after every 6 mins of its arrival and can stay max up to 10 mins, some specified time for the plane to reach the hanged from and to the runway. Some specified time for the takeoff and landing. Also, some specified time for which the runway cannot be used after there has been a takeoff and landing. This made the question a real-world Data Structures and Algorithms questions. I threw in a lot of queues, priority queues, heaps and circular queues to solve it. We even reached to the point where we would consider the case where the airplanes were circling above the airport waiting for them to land. In between were a few jokes as to what airplanes would do if they did not follow our model.
-All in all, I think that this round went well too. I do not have much experience with such questions but was able to handle and point all the specifications that he had mentioned.&lt;/p&gt;
-
-&lt;h2 id=&quot;round-4-the-hiring-manager-round&quot;&gt;Round 4, The Hiring Manager Round&lt;/h2&gt;
-
-&lt;p&gt;Not all students had this round (even out of those who were finally selected), as the interviewers had a flight to catch in the evening. I was the first to finish my three rounds so I had this round. The Hiring Manager asked me HR questions and Technical Questions. He would also dig deep into the HR questions that he had asked me. Some of them were what would you do if your team member starts to underperform. He asked a lot of questions which would end up at whether I would own up or not when I made a mistake and at what point I would mention it to the manager. He also asked me some Technological questions such as the difference between Java 7,8,9 but only because I had told him that I like to read Java release docs. He then told me about his experience in Goldman Sachs and shook my hands. He was very professional.&lt;/p&gt;
-
-&lt;p&gt;Finally, 7 students were selected for Internships.&lt;/p&gt;
-
-&lt;p&gt;The interview experience was fine for me. The interviewers were mostly friendly and the company made the decisions on all the previous interviews and not just one which can go bad for anyone. The HR, however, would often get annoyed as I had my Microsoft Internship Interview on the same day and I would sneak in between the Goldman Sachs interviews over towards Microsoft’s :P. I ended up choosing Microsoft over Goldman Sachs after eight rounds of interviews (combined by both the companies).&lt;/p&gt;
-
-&lt;p&gt;Here is the &lt;a href=&quot;https://www.geeksforgeeks.org/longest-common-subsequence-dp-4/&quot;&gt;question&lt;/a&gt; that was aked in the coding round of the Placements.&lt;/p&gt;
-
-</description>
-        <pubDate>Wed, 07 Nov 2018 17:42:12 +0530</pubDate>
-        <link>http://localhost:4000/interviews/2018/11/07/Goldman-Sachs-Interview-Experience/</link>
-        <guid isPermaLink="true">http://localhost:4000/interviews/2018/11/07/Goldman-Sachs-Interview-Experience/</guid>
-        
-        <category>Internships</category>
-        
-        <category>Interviews</category>
-        
-        <category>Goldman Sachs</category>
-        
-        <category>Experience</category>
-        
-        
-        <category>Interviews</category>
-        
-      </item>
-    
-      <item>
-        <title>Sieve of Eratosthenes</title>
-        <description>&lt;p&gt;The Sieve of Eratosthenes has been forever famously been used to calculate and store Prime Numbers. This article is an explanation of how to do so.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;What’s a prime number?&lt;/strong&gt;: A number that is &lt;strong&gt;only&lt;/strong&gt; divisible by itself and 1.&lt;/p&gt;
-
-&lt;p&gt;Traditional Method of checking whether a number (n) is prime or not is by iterating through all the numbers from 2 to (n-1) and if we find that a particular number (x) in between divides the number then we say that the number is not a prime. This particular check takes O(n) {linear time as you need to check each number in between}.
-Suppose you need to generate all the primes up to a given integer say N then you’ll spend O(N) time to iterate through the loop and to check whether each number (n) in between is prime or not you’ll have to spend O(n) time for each element.&lt;/p&gt;
-
-&lt;p&gt;Thus the total time is O(N^2). Much too expensive!!&lt;/p&gt;
-
-&lt;p&gt;So we improve this solution by using the Sieve of Eratosthenes&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Basic Logic of Sieve&lt;/strong&gt;:&lt;br /&gt;
-We start from 2 and proceed further for all numbers under n. For each number that we hit (which is 2 initially we strike of all it’s further multiples as they cannot be prime 4,6..). All the numbers that we haven’t stuck out at the end of this procedure will be prime. So basically this is how we proceed.&lt;br /&gt;
-If a number has already been struck out I won’t write it again. You’ll see why later! 😉 be with me.&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;Conclude 2 is prime. 4,6,8,10….are not.&lt;br /&gt;
-Conclude 3 is prime. 9,15,21…are not.(6,12,18 were already struck out because of 2).&lt;br /&gt;
-Conclude 5 is prime 25,35….are not.&lt;br /&gt;
-Continue this process till we have only prime numbers left under n.&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;Now as to why we didn’t write the numbers that were already struck out- If you observe that the first multiple of each prime number that is yet to be struck out is the square of the number. We”ll use this in our code :). You can also mathematically prove this. Conversely we’ll also only strike out multiples of numbers that are under sqrt(n) as the ones larger than it will be the prime numbers left which have no multiples under n.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Coding Part&lt;/strong&gt;&lt;br /&gt;
-&lt;strong&gt;Input:&lt;/strong&gt; n-the number under which we need to print all the prime numbers.&lt;br /&gt;
-&lt;strong&gt;Output:&lt;/strong&gt; all the prime numbers under n&lt;br /&gt;
-&lt;strong&gt;Logic:&lt;/strong&gt; All even numbers except 2 are not prime. So we iterate on all odd numbers from 3 to the max value (msz) and check to see if we have seen multiples of this before. If we have not it is a prime number and we strike out further multiples of it. If we have then its not a prime number and we move on ahead.&lt;br /&gt;
-At the end we store all the primes in a vector&lt;/p&gt;
-
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;const int msz=2e4+1;
-vector&amp;lt;int&amp;gt; seen(msz);
-vector&amp;lt;int&amp;gt; primes;
-
-void shieve()
-{
-	for(int i=3;i*i&amp;lt;=msz;i+=2)
-	{
-		if(!seen[i])
-		{
-			for(int j=i*2;j&amp;lt;=msz;j+=i)
-			{
-				seen[j]=1;
-			}
-		}
-	}
-	primes.push_back(2);
-	for(int i=3;i&amp;lt;=msz;i+=2)
-	{
-		if(!seen[i]) primes.push_back(i);
-	}
-}
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;thumbnail: android
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
-&lt;p&gt;The time complexity of the Sieve of Eratosthenes is O(n(logn)(loglogn))&lt;/p&gt;
+&lt;p&gt;Then in the future if you decide you want to use your own android icon you can just
+add it to &lt;code class=&quot;highlighter-rouge&quot;&gt;_data/thumbnails.yml&lt;/code&gt; which will override it for all articles using
+the android thumbnail.&lt;/p&gt;
+
 </description>
-        <pubDate>Mon, 05 Nov 2018 08:33:03 +0530</pubDate>
-        <link>http://localhost:4000/algorithms/2018/11/05/SieveOfEratosthenes/</link>
-        <guid isPermaLink="true">http://localhost:4000/algorithms/2018/11/05/SieveOfEratosthenes/</guid>
+        <pubDate>Sun, 08 Jun 2014 18:02:18 +0530</pubDate>
+        <link>http://localhost:4000/jekyll/2014/06/08/using-thumbnails/</link>
+        <guid isPermaLink="true">http://localhost:4000/jekyll/2014/06/08/using-thumbnails/</guid>
         
-        <category>Algorithms</category>
+        <category>thumbnails</category>
         
-        <category>Prime Numbers</category>
-        
-        <category>Sieve</category>
+        <category>carte noire</category>
         
         
-        <category>Algorithms</category>
+        <category>jekyll</category>
         
       </item>
     
