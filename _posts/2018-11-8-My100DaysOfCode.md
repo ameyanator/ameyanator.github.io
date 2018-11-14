@@ -42,6 +42,6 @@ Here is my milstones page :)
 &nbsp;&nbsp;&nbsp;&nbsp; 6. MySql (Intermediate)  
 
 [1]: https://www.100daysofcode.com/
-[2]: https://github.com/ameyanator/100DaysOfCode
+[2]: https://github.com/ameyanator/100-days-of-code/blob/master/log.md
 [3]: https://twitter.com/luva1900
 [4]: https://www.coursera.org/account/accomplishments/certificate/TRWXN55FQFQ4
