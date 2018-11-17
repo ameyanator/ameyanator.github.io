@@ -13,7 +13,7 @@ addthis_id: ra-513c6fa83da6ec67
 post_limit: 5
 
 # Social usernames/URLs
-twitter_username: luva1900
+twitter_username: ameyanator
 github_username:  ameyanator
 instagram_username: ameyanator26
 reddit_username: ameyanator
@@ -26,11 +26,11 @@ gmail_link: ameyasinha26@gmail.com
 CV_link: https://drive.google.com/file/d/1HI1YfRm76Qnfkl77FjMKf4tgtioEBOvG/view
 
 # Footer
-footer_left: "Made with <i class=\"fa fa-heart\"></i> by <a href=\"https://twitter.com/luva1900\">Ameya Sinha</a>"
+footer_left: "Made with <i class=\"fa fa-heart\"></i> by <a href=\"https://twitter.com/ameyanator\">Ameya Sinha</a>"
 footer_right: "&lt;/&gt; on <a href=\"https://github.com/ameyanator/ameyanator.github.io\">Github</a> &nbsp;<i class=\"fa fa-github-alt\"></i>"
 
 # Build settings
-markdown: kramdowns
+markdown: kramdown
 
 kramdown:
   input: GFM
