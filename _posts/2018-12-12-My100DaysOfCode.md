@@ -1,7 +1,7 @@
 ---
 layout:     post
-title:      My100DaysOfCode - Milestones
-date:       2018-11-8 03:03:03
+title:      My100DaysOfCode - Before / After
+date:       2018-12-12 03:03:03
 author:     Ameya Sinha
 summary:    My 100 Days of Code Milestones
 categories: 100DaysOfCode
