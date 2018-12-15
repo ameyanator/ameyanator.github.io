@@ -25,7 +25,7 @@ Inspired by the [100DaysOfCode][2] Challenge I have decided to take on this chal
 [3]: https://twitter.com/ameyanator
 
 ### December 14, 2018
-Did not get any time today as I was travelling from Goa to Pune.
+Did not get any time today as I was traveling from Goa to Pune.
 
 ### Day 2: December 15, 2018
 **Today's Progress:** Jogged for 15 mins and did five pushups.
