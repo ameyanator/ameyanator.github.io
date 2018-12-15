@@ -1,7 +1,7 @@
 ---
 layout:     post
 title:      My100DaysOfFitness - Log
-date:       2018-12-13 03:03:03
+date:       2018-12-15 03:03:03
 author:     Ameya Sinha
 summary:    My 100 Days of Code Fitness Log
 categories: 100DaysOfFitness
