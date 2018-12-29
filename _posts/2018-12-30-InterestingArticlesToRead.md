@@ -24,7 +24,7 @@ Here is a list of interesting articles to read -
 1. [What is the best resource for datastructures and algorithms?][5]
 
 * Competitive Coding
-1.[What is a good schedule to follow for becoming better at competitive programming for beginners?][6]
+1. [What is a good schedule to follow for becoming better at competitive programming for beginners?][6]
 
 [1]:https://spin.atomicobject.com/2017/06/01/how-to-read-code/
 [2]:https://www.theodinproject.com/courses/web-development-101/lessons/gearing-up
