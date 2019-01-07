@@ -16,6 +16,7 @@ Here is a list of interesting articles to read -
 * Motivation + Tips on Learning
 1. [GEARING UP (Web Development 101)][2]
 2. [How can I increase my productivity while studying?][4]
+3. [What are some signs that a person will be successful?][7]
 
 * Build + Progress Tech Career
 1. [How would you build a solid career in tech?][3]
@@ -32,3 +33,4 @@ Here is a list of interesting articles to read -
 [4]:https://qr.ae/TUnXCR
 [5]:https://qr.ae/TUnXCh
 [6]:https://qr.ae/TUnXCK
+[7]:https://qr.ae/TUnsi6
