@@ -20,3 +20,6 @@ Inspired by the [100DaysOfCode][2] Challenge I have decided to take on this chal
 **Today's Progress:** Jogged around the cricket round thrice in the evening and ran for about 15 mins in the morning. 10 pushups in the afternoon.
 
 **Thoughts:** I find myself comfortable with running and need to develop stamina to continue running for longer periods of time. However, I need to work on my upper body strength.
+
+[2]: https://www.100daysofcode.com/
+[3]: https://twitter.com/ameyanator
