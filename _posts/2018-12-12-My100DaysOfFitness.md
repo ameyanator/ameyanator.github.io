@@ -1,7 +1,7 @@
 ---
 layout:     post
 title:      My100DaysOfFitness - Log
-date:       2019-01-09 03:03:03
+date:       2019-01-10 03:03:03
 author:     Ameya Sinha
 summary:    My 100 Days of Code Fitness Log
 categories: 100DaysOfFitness
@@ -29,3 +29,9 @@ Inspired by the [100DaysOfCode][2] Challenge I have decided to take on this chal
 **Today's Progress:** Jogged around the cricket ground again today thrice without stopping.
 
 **Thoughts:** It was definitely easier to get up and and to make it to the cricket ground today. Plan to hit the gym tomorrow.
+
+### Day 3: January 11, 2019
+
+**Today's Progress:** Hit the gym and jogged around both today. Finally managed to do some upper body excercises today.
+
+**Thoughts:** Plan to increase my stamina and continue at the current pace for atleast five more days.
